@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		406D27E8294819FF002E3540 /* GoogleFontPreviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D27E7294819FF002E3540 /* GoogleFontPreviewApp.swift */; };
+		406D27EA294819FF002E3540 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D27E9294819FF002E3540 /* ContentView.swift */; };
+		406D27EC29481A00002E3540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406D27EB29481A00002E3540 /* Assets.xcassets */; };
+		406D27EF29481A00002E3540 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406D27EE29481A00002E3540 /* Preview Assets.xcassets */; };
+		406D27FA29481A00002E3540 /* GoogleFontPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D27F929481A00002E3540 /* GoogleFontPreviewTests.swift */; };
+		406D280429481A00002E3540 /* GoogleFontPreviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D280329481A00002E3540 /* GoogleFontPreviewUITests.swift */; };
+		406D280629481A00002E3540 /* GoogleFontPreviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D280529481A00002E3540 /* GoogleFontPreviewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		406D27F629481A00002E3540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406D27DC294819FF002E3540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 406D27E3294819FF002E3540;
+			remoteInfo = GoogleFontPreview;
+		};
+		406D280029481A00002E3540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 406D27DC294819FF002E3540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 406D27E3294819FF002E3540;
+			remoteInfo = GoogleFontPreview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		406D27E4294819FF002E3540 /* GoogleFontPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleFontPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		406D27E7294819FF002E3540 /* GoogleFontPreviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleFontPreviewApp.swift; sourceTree = "<group>"; };
+		406D27E9294819FF002E3540 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		406D27EB29481A00002E3540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		406D27EE29481A00002E3540 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		406D27F029481A00002E3540 /* GoogleFontPreview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoogleFontPreview.entitlements; sourceTree = "<group>"; };
+		406D27F529481A00002E3540 /* GoogleFontPreviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleFontPreviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		406D27F929481A00002E3540 /* GoogleFontPreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleFontPreviewTests.swift; sourceTree = "<group>"; };
+		406D27FF29481A00002E3540 /* GoogleFontPreviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleFontPreviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		406D280329481A00002E3540 /* GoogleFontPreviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleFontPreviewUITests.swift; sourceTree = "<group>"; };
+		406D280529481A00002E3540 /* GoogleFontPreviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleFontPreviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		406D27E1294819FF002E3540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D27F229481A00002E3540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D27FC29481A00002E3540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		406D27DB294819FF002E3540 = {
+			isa = PBXGroup;
+			children = (
+				406D27E6294819FF002E3540 /* GoogleFontPreview */,
+				406D27F829481A00002E3540 /* GoogleFontPreviewTests */,
+				406D280229481A00002E3540 /* GoogleFontPreviewUITests */,
+				406D27E5294819FF002E3540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		406D27E5294819FF002E3540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				406D27E4294819FF002E3540 /* GoogleFontPreview.app */,
+				406D27F529481A00002E3540 /* GoogleFontPreviewTests.xctest */,
+				406D27FF29481A00002E3540 /* GoogleFontPreviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		406D27E6294819FF002E3540 /* GoogleFontPreview */ = {
+			isa = PBXGroup;
+			children = (
+				406D27E7294819FF002E3540 /* GoogleFontPreviewApp.swift */,
+				406D27E9294819FF002E3540 /* ContentView.swift */,
+				406D27EB29481A00002E3540 /* Assets.xcassets */,
+				406D27F029481A00002E3540 /* GoogleFontPreview.entitlements */,
+				406D27ED29481A00002E3540 /* Preview Content */,
+			);
+			path = GoogleFontPreview;
+			sourceTree = "<group>";
+		};
+		406D27ED29481A00002E3540 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				406D27EE29481A00002E3540 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		406D27F829481A00002E3540 /* GoogleFontPreviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				406D27F929481A00002E3540 /* GoogleFontPreviewTests.swift */,
+			);
+			path = GoogleFontPreviewTests;
+			sourceTree = "<group>";
+		};
+		406D280229481A00002E3540 /* GoogleFontPreviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				406D280329481A00002E3540 /* GoogleFontPreviewUITests.swift */,
+				406D280529481A00002E3540 /* GoogleFontPreviewUITestsLaunchTests.swift */,
+			);
+			path = GoogleFontPreviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		406D27E3294819FF002E3540 /* GoogleFontPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406D280929481A00002E3540 /* Build configuration list for PBXNativeTarget "GoogleFontPreview" */;
+			buildPhases = (
+				406D27E0294819FF002E3540 /* Sources */,
+				406D27E1294819FF002E3540 /* Frameworks */,
+				406D27E2294819FF002E3540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleFontPreview;
+			productName = GoogleFontPreview;
+			productReference = 406D27E4294819FF002E3540 /* GoogleFontPreview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		406D27F429481A00002E3540 /* GoogleFontPreviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406D280C29481A00002E3540 /* Build configuration list for PBXNativeTarget "GoogleFontPreviewTests" */;
+			buildPhases = (
+				406D27F129481A00002E3540 /* Sources */,
+				406D27F229481A00002E3540 /* Frameworks */,
+				406D27F329481A00002E3540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				406D27F729481A00002E3540 /* PBXTargetDependency */,
+			);
+			name = GoogleFontPreviewTests;
+			productName = GoogleFontPreviewTests;
+			productReference = 406D27F529481A00002E3540 /* GoogleFontPreviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		406D27FE29481A00002E3540 /* GoogleFontPreviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406D280F29481A00002E3540 /* Build configuration list for PBXNativeTarget "GoogleFontPreviewUITests" */;
+			buildPhases = (
+				406D27FB29481A00002E3540 /* Sources */,
+				406D27FC29481A00002E3540 /* Frameworks */,
+				406D27FD29481A00002E3540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				406D280129481A00002E3540 /* PBXTargetDependency */,
+			);
+			name = GoogleFontPreviewUITests;
+			productName = GoogleFontPreviewUITests;
+			productReference = 406D27FF29481A00002E3540 /* GoogleFontPreviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		406D27DC294819FF002E3540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					406D27E3294819FF002E3540 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					406D27F429481A00002E3540 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 406D27E3294819FF002E3540;
+					};
+					406D27FE29481A00002E3540 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 406D27E3294819FF002E3540;
+					};
+				};
+			};
+			buildConfigurationList = 406D27DF294819FF002E3540 /* Build configuration list for PBXProject "GoogleFontPreview" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 406D27DB294819FF002E3540;
+			productRefGroup = 406D27E5294819FF002E3540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406D27E3294819FF002E3540 /* GoogleFontPreview */,
+				406D27F429481A00002E3540 /* GoogleFontPreviewTests */,
+				406D27FE29481A00002E3540 /* GoogleFontPreviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		406D27E2294819FF002E3540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D27EF29481A00002E3540 /* Preview Assets.xcassets in Resources */,
+				406D27EC29481A00002E3540 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D27F329481A00002E3540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D27FD29481A00002E3540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		406D27E0294819FF002E3540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D27EA294819FF002E3540 /* ContentView.swift in Sources */,
+				406D27E8294819FF002E3540 /* GoogleFontPreviewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D27F129481A00002E3540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D27FA29481A00002E3540 /* GoogleFontPreviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406D27FB29481A00002E3540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D280429481A00002E3540 /* GoogleFontPreviewUITests.swift in Sources */,
+				406D280629481A00002E3540 /* GoogleFontPreviewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		406D27F729481A00002E3540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 406D27E3294819FF002E3540 /* GoogleFontPreview */;
+			targetProxy = 406D27F629481A00002E3540 /* PBXContainerItemProxy */;
+		};
+		406D280129481A00002E3540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 406D27E3294819FF002E3540 /* GoogleFontPreview */;
+			targetProxy = 406D280029481A00002E3540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		406D280729481A00002E3540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		406D280829481A00002E3540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		406D280A29481A00002E3540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GoogleFontPreview/GoogleFontPreview.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoogleFontPreview/Preview Content\"";
+				DEVELOPMENT_TEAM = L4N82R5CV4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newWaveDigital.GoogleFontPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		406D280B29481A00002E3540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GoogleFontPreview/GoogleFontPreview.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoogleFontPreview/Preview Content\"";
+				DEVELOPMENT_TEAM = L4N82R5CV4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newWaveDigital.GoogleFontPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		406D280D29481A00002E3540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4N82R5CV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newWaveDigital.GoogleFontPreviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleFontPreview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoogleFontPreview";
+			};
+			name = Debug;
+		};
+		406D280E29481A00002E3540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4N82R5CV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newWaveDigital.GoogleFontPreviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleFontPreview.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoogleFontPreview";
+			};
+			name = Release;
+		};
+		406D281029481A00002E3540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4N82R5CV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newWaveDigital.GoogleFontPreviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GoogleFontPreview;
+			};
+			name = Debug;
+		};
+		406D281129481A00002E3540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4N82R5CV4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newWaveDigital.GoogleFontPreviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GoogleFontPreview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		406D27DF294819FF002E3540 /* Build configuration list for PBXProject "GoogleFontPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D280729481A00002E3540 /* Debug */,
+				406D280829481A00002E3540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406D280929481A00002E3540 /* Build configuration list for PBXNativeTarget "GoogleFontPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D280A29481A00002E3540 /* Debug */,
+				406D280B29481A00002E3540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406D280C29481A00002E3540 /* Build configuration list for PBXNativeTarget "GoogleFontPreviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D280D29481A00002E3540 /* Debug */,
+				406D280E29481A00002E3540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406D280F29481A00002E3540 /* Build configuration list for PBXNativeTarget "GoogleFontPreviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D281029481A00002E3540 /* Debug */,
+				406D281129481A00002E3540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 406D27DC294819FF002E3540 /* Project object */;
+}
