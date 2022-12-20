@@ -14,6 +14,13 @@
 		406D27FA29481A00002E3540 /* GoogleFontPreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D27F929481A00002E3540 /* GoogleFontPreviewTests.swift */; };
 		406D280429481A00002E3540 /* GoogleFontPreviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D280329481A00002E3540 /* GoogleFontPreviewUITests.swift */; };
 		406D280629481A00002E3540 /* GoogleFontPreviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D280529481A00002E3540 /* GoogleFontPreviewUITestsLaunchTests.swift */; };
+		406D2813294822CB002E3540 /* GoogleFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D2812294822CB002E3540 /* GoogleFont.swift */; };
+		406D2815294823C7002E3540 /* GoogleFontService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D2814294823C7002E3540 /* GoogleFontService.swift */; };
+		406D28172948FA0D002E3540 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D28162948FA0D002E3540 /* DetailsView.swift */; };
+		406D2819294911F2002E3540 /* Font+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D2818294911F2002E3540 /* Font+Register.swift */; };
+		406D281B294913BD002E3540 /* StyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D281A294913BD002E3540 /* StyleCell.swift */; };
+		406D281D29492DF9002E3540 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406D281C29492DF9002E3540 /* Style.swift */; };
+		40FF8417294E95D70034CE00 /* FontList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FF8416294E95D70034CE00 /* FontList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		406D27FF29481A00002E3540 /* GoogleFontPreviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleFontPreviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		406D280329481A00002E3540 /* GoogleFontPreviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleFontPreviewUITests.swift; sourceTree = "<group>"; };
 		406D280529481A00002E3540 /* GoogleFontPreviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleFontPreviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		406D2812294822CB002E3540 /* GoogleFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleFont.swift; sourceTree = "<group>"; };
+		406D2814294823C7002E3540 /* GoogleFontService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleFontService.swift; sourceTree = "<group>"; };
+		406D28162948FA0D002E3540 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		406D2818294911F2002E3540 /* Font+Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Register.swift"; sourceTree = "<group>"; };
+		406D281A294913BD002E3540 /* StyleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleCell.swift; sourceTree = "<group>"; };
+		406D281C29492DF9002E3540 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		40FF8416294E95D70034CE00 /* FontList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +109,18 @@
 		406D27E6294819FF002E3540 /* GoogleFontPreview */ = {
 			isa = PBXGroup;
 			children = (
+				406D2814294823C7002E3540 /* GoogleFontService.swift */,
+				406D2812294822CB002E3540 /* GoogleFont.swift */,
 				406D27E7294819FF002E3540 /* GoogleFontPreviewApp.swift */,
 				406D27E9294819FF002E3540 /* ContentView.swift */,
 				406D27EB29481A00002E3540 /* Assets.xcassets */,
 				406D27F029481A00002E3540 /* GoogleFontPreview.entitlements */,
 				406D27ED29481A00002E3540 /* Preview Content */,
+				406D28162948FA0D002E3540 /* DetailsView.swift */,
+				406D2818294911F2002E3540 /* Font+Register.swift */,
+				406D281A294913BD002E3540 /* StyleCell.swift */,
+				406D281C29492DF9002E3540 /* Style.swift */,
+				40FF8416294E95D70034CE00 /* FontList.swift */,
 			);
 			path = GoogleFontPreview;
 			sourceTree = "<group>";
@@ -193,7 +214,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					406D27E3294819FF002E3540 = {
 						CreatedOnToolsVersion = 14.1;
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406D2819294911F2002E3540 /* Font+Register.swift in Sources */,
+				406D2813294822CB002E3540 /* GoogleFont.swift in Sources */,
+				406D28172948FA0D002E3540 /* DetailsView.swift in Sources */,
 				406D27EA294819FF002E3540 /* ContentView.swift in Sources */,
 				406D27E8294819FF002E3540 /* GoogleFontPreviewApp.swift in Sources */,
+				406D281B294913BD002E3540 /* StyleCell.swift in Sources */,
+				406D281D29492DF9002E3540 /* Style.swift in Sources */,
+				406D2815294823C7002E3540 /* GoogleFontService.swift in Sources */,
+				40FF8417294E95D70034CE00 /* FontList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +358,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -390,6 +419,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -416,9 +446,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GoogleFontPreview/GoogleFontPreview.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"GoogleFontPreview/Preview Content\"";
 				DEVELOPMENT_TEAM = L4N82R5CV4;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -443,9 +475,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GoogleFontPreview/GoogleFontPreview.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"GoogleFontPreview/Preview Content\"";
 				DEVELOPMENT_TEAM = L4N82R5CV4;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -471,6 +505,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = L4N82R5CV4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -490,6 +525,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = L4N82R5CV4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -508,6 +544,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = L4N82R5CV4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -525,6 +562,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = L4N82R5CV4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
