@@ -8,7 +8,7 @@
 import Foundation
 
 class GoogleFontService {
-  let apiKey = "AIzaSyA_6LIk7ayGqRrUwCYQKKUVbYTA1fM-aws"
+  let apiKey = "** Put your key here **"
 
   func syncFonts() async throws -> [GoogleFont] {
     var components = URLComponents()
